@@ -106,7 +106,7 @@ const animationTimeline = () => {
     .from(".idea-2", 0.7, ideaTextTrans)
     .to(".idea-2", 0.7, ideaTextTransLeave, "+=1.5")
     .from(".idea-3", 0.7, ideaTextTrans)
-    .to(".idea-3 strong", 0.5, {
+    .to(".idea-3 strong", 1.5, {
       scale: 1.2,
       x: 10,
       backgroundColor: "rgb(21, 161, 237)",
